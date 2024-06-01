@@ -53,7 +53,3 @@ total_score, bonus = calculate_total_score(st.session_state.scores)
 st.header("Puntaje Total")
 st.write(f"Bonificación: {bonus}")
 st.write(f"Puntaje Total: {total_score}")
-
-# Ejecutar la aplicación
-if __name__ == '__main__':
-    st.run()
